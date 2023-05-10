@@ -33,27 +33,83 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-body{
-    
+#img01 {
+    background-image: url(../imagens/Joaninha.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-#verso01{
-    max-width: 200px;
-    font-family: 'Sriracha', cursive;
+#verso01 {
+    background-color: white;
+    padding: 100px 0px 100px 30px;
+
 }
-#verso02{
-    max-width: 200px;
+#verso01 p {
+    
     font-family: 'Sriracha', cursive;
+    font-size: 44px;
+    background-color: white;
+    padding: 5px;
 }
-#verso03e04{
-    max-width: 200px;
-    font-family: 'Sriracha', cursive;
+#verso02 {
+    padding: 100px 0px 100px 30px;
 }
-#verso05{
-    max-width: 200px;
+#verso02 p {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
     font-family: 'Sriracha', cursive;
+    font-size: 44px;
+    padding: 5px;
+    width: fit-content;
 }
-#verso06e07{
-    max-width: 200px;
+
+#img02 {
+    background-image: url(../imagens/Manuscrito.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#verso03e04 {
+    background-color: white;
+    padding: 100px 0px 100px 30px;
+}
+
+#verso03e04 p {
     font-family: 'Sriracha', cursive;
+    font-size: 44px;
+    padding: 5px;
+}
+#verso05 {
+    padding: 100px 00px 100px 30px;
+}
+#verso05 p {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 44px;
+    padding: 5px;
+    width: fit-content;
+}
+
+#verso06e07 {
+    background-color: white;
+    padding: 100px 0px 100px 30px;
+}
+#verso06e07 p {
+    font-family: 'Sriracha', cursive;
+    font-size: 44px;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
 }
