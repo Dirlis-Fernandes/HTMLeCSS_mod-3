@@ -24,7 +24,7 @@ header h1 {
     font-variant: small-caps;
 }
 header h2 {
-    font-size: 16px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 40px;
     font-weight: normal;
@@ -49,8 +49,9 @@ section {
 
 #verso01 {
     background-color: white;
-    padding: 100px 0px 100px 30px;
-
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 30px;
 }
 #verso01 p {
     
@@ -59,7 +60,9 @@ section {
     padding: 5px;
 }
 #verso02 {
-    padding: 100px 0px 100px 30px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 30px;
 }
 #verso02 p {
     background-color: rgba(0, 0, 0, 0.356);
@@ -78,7 +81,9 @@ section {
 
 #verso03e04 {
     background-color: white;
-    padding: 100px 0px 100px 30px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 30px;
 }
 
 #verso03e04 p {
@@ -86,7 +91,9 @@ section {
     padding: 5px;
 }
 #verso05 {
-    padding: 100px 00px 100px 30px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 30px;
 }
 #verso05 p {
     background-color: rgba(0, 0, 0, 0.356);
@@ -98,7 +105,9 @@ section {
 
 #verso06e07 {
     background-color: white;
-    padding: 100px 0px 100px 30px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 30px; 
 }
 #verso06e07 p {
     font-family: 'Sriracha', cursive;
