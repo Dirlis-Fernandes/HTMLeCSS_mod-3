@@ -16,12 +16,15 @@
         }
         table {
             border-collapse: collapse;
+            position: relative;
         }
-        th {
+        thead > tr > th {
             border: 1px solid black;
             width: 400px;
             padding: 5px;
             background-color: darkgray;
+            position: sticky;
+            top: -1px;
         }
         td {
             border: 1px solid black;
@@ -30,6 +33,9 @@
         }
         td.num {
             text-align: right;
+        }
+        tbody tr:nth-child(2n) {
+            background-color: rgba(128, 128, 128, 0.295);
         }
         tfoot th {
             color: white;
