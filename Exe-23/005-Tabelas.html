@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            text-align: center;
+            border-collapse: collapse;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+        }
+        caption {
+            background-color: lightblue;
+            padding: 5px;
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 5px 5px 0px 0px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+        }
+        th,td {
+            border:  1px solid black;
+            padding: 5px;
+        }
+        .nome {
+            background-color: aqua;
+        }
+        .profissao {
+            background-color: cadetblue;
+        }
+        .sexo {
+            background-color: lightgray; /*com Span => dus colunas*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo" span="2">
+            <!--<col class="Idade">-->
+            <col class="profissao">
+        </colgroup>
+        <thead>
+            <caption>Cadastro</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>f</td>
+                <td>25</td>
+                <td>Auxiliar</td>
+            </tr>
+            <tr>
+                <td>Claudio</td>
+                <td>m</td>
+                <td>30</td>
+                <td>Marceneiro</td>
+            </tr>
+            <tr>
+                <td>Glauber</td>
+                <td>m</td>
+                <td>33</td>
+                <td>Motorista</td>
+            </tr>
+            <tr>
+                <td>cleide</td>
+                <td>f</td>
+                <td>19</td>
+                <td>Estagiaria</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
